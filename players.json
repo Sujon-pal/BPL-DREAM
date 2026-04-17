@@ -1,0 +1,202 @@
+[
+  {
+    "playerImg": "https://i.ibb.co.com/KxskmLq6/Virat-Kohli-wallpaper.jpg",
+    "playerName": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "rating": 9.8,
+    "price": 15000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170676/rohit-sharma.jpg",
+    "playerName": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 9.6,
+    "price": 16000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170677/ms-dhoni.jpg",
+    "playerName": "MS Dhoni",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "rating": 9.7,
+    "price": 12000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170643/jos-buttler.jpg",
+    "playerName": "Jos Buttler",
+    "country": "England",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "rating": 9.5,
+    "price": 14000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170650/ben-stokes.jpg",
+    "playerName": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "rating": 9.4,
+    "price": 16000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170635/david-warner.jpg",
+    "playerName": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "rating": 9.3,
+    "price": 12000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170640/steve-smith.jpg",
+    "playerName": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Legbreak",
+    "rating": 9.2,
+    "price": 11000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170644/kane-williamson.jpg",
+    "playerName": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 9.1,
+    "price": 10000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170678/hardik-pandya.jpg",
+    "playerName": "Hardik Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "rating": 9.0,
+    "price": 15000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170690/rashid-khan.jpg",
+    "playerName": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Legbreak googly",
+    "rating": 9.4,
+    "price": 16000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170680/jasprit-bumrah.jpg",
+    "playerName": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "rating": 9.6,
+    "price": 17000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170681/trent-boult.jpg",
+    "playerName": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "rating": 9.2,
+    "price": 13000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170645/quinton-de-kock.jpg",
+    "playerName": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "rating": 9.1,
+    "price": 11000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170646/faf-du-plessis.jpg",
+    "playerName": "Faf du Plessis",
+    "country": "South Africa",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "rating": 9.0,
+    "price": 12000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170647/andre-russell.jpg",
+    "playerName": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "rating": 9.5,
+    "price": 16000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170648/sunil-narine.jpg",
+    "playerName": "Sunil Narine",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 9.1,
+    "price": 12000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170662/shubman-gill.jpg",
+    "playerName": "Shubman Gill",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "rating": 9.3,
+    "price": 14000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170663/kl-rahul.jpg",
+    "playerName": "KL Rahul",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "rating": 9.2,
+    "price": 15000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170664/yuzvendra-chahal.jpg",
+    "playerName": "Yuzvendra Chahal",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Legbreak",
+    "rating": 9.0,
+    "price": 10000000
+  },
+  {
+    "playerImg": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170665/glenn-maxwell.jpg",
+    "playerName": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 9.3,
+    "price": 14000000
+  }
+]
