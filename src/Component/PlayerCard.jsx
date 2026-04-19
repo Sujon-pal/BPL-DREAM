@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const PlayerCard = ({ player, setavailableBalance, availableBalance }) => {
-  console.log(availableBalance);
+const PlayerCard = ({ player, setavailableBalance, availableBalance ,addPlayer,setAddPlayer}) => {
+
 
   const [isSelected, setIsSelected] = useState(false);
 
@@ -63,6 +63,8 @@ const PlayerCard = ({ player, setavailableBalance, availableBalance }) => {
             }
             setIsSelected(true);
             setavailableBalance(availableBalance - player.price);
+            setAddPlayer([...addPlayer,player])
+            
           }}
           disabled={isSelected}
           className={`border-2 px-3 py-1 rounded-2xl text-sm font-semibold mt-2 transition-all

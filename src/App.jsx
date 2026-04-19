@@ -10,17 +10,19 @@ const fetchPlayer = async () => {
   return res.json();
 };
 
-  const PlayerPromice = fetchPlayer();
+const PlayerPromice = fetchPlayer();
 function App() {
-
   const [toggle, setToggle] = useState(true);
-  const [availableBalance , setavailableBalance] = useState(90000000)
+  const [availableBalance, setavailableBalance] = useState(90000000);
+
+  const [addPlayer, setAddPlayer] = useState([]);
+
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
 
-      <div className="max-w-11/12 mx-auto mt-5 font-bold flex items-center justify-between">
-        <h1>Available Player</h1>
+      <div className="max-w-11/12 mx-auto p-4 mt-5 font-bold flex items-center justify-between">
+        <h1 className="text-xl ">Available Player</h1>
 
         <div>
           <button
@@ -31,7 +33,7 @@ function App() {
           </button>
           <button
             onClick={() => setToggle(false)}
-            className={`px-4 py-2 border border-gray-400 rounded-r-2xl border-l-0 ${toggle === false ? "bg-gradient-to-r from-yellow-300 to-pink-400" :""}`}
+            className={`px-4 py-2 border border-gray-400 rounded-r-2xl border-l-0 ${toggle === false ? "bg-gradient-to-r from-yellow-300 to-pink-400" : ""}`}
           >
             Selected <span>(0)</span>{" "}
           </button>
@@ -42,10 +44,16 @@ function App() {
         <Suspense
           fallback={<span className="loading loading-ring loading-xl "></span>}
         >
-          <AvailablePlayer availableBalance={availableBalance} setavailableBalance={setavailableBalance} PlayerPromice={PlayerPromice}></AvailablePlayer>
+          <AvailablePlayer
+            availableBalance={availableBalance}
+            setavailableBalance={setavailableBalance}
+            PlayerPromice={PlayerPromice}
+            setAddPlayer={setAddPlayer}
+            addPlayer={addPlayer}
+          ></AvailablePlayer>
         </Suspense>
       ) : (
-        <SelectedPlayer></SelectedPlayer>
+        <SelectedPlayer addPlayer={addPlayer}></SelectedPlayer>
       )}
 
       <Footer></Footer>
