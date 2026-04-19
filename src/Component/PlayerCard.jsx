@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const PlayerCard = ({ player, setavailableBalance, availableBalance ,addPlayer,setAddPlayer}) => {
 
@@ -58,7 +59,11 @@ const PlayerCard = ({ player, setavailableBalance, availableBalance ,addPlayer,s
         <button
           onClick={() => {
             if (availableBalance < player.price) {
-              alert("Check Your Balance");
+              toast("Check Your Balance");
+              return;
+            }
+            if(addPlayer.length === 6){
+              toast("6 Player are added");
               return;
             }
             setIsSelected(true);

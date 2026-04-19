@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTrash } from "react-icons/fa";
 
-const SelectedPlayer = ({ addPlayer }) => {
+const SelectedPlayer = ({ addPlayer,handleRemove }) => {
   console.log(addPlayer);
   return (
     <div className="max-w-11/12 mx-auto p-4">
@@ -16,7 +16,7 @@ const SelectedPlayer = ({ addPlayer }) => {
             <div className="flex items-center gap-4">
               <div className="">
                 <img
-                  className="w-14 h-14 bg-gray-200 rounded-lg object-cover"
+                  className="w-14 h-14  rounded-lg object-cover"
                   src={item.playerImg}
                   alt=""
                 />
@@ -25,15 +25,18 @@ const SelectedPlayer = ({ addPlayer }) => {
               <div>
                 <h3 className="font-semibold">{item.playerName}</h3>
                 <p className="text-sm text-gray-500">
-                    {
-                     
-                    }
+                  {item.role === "Batsman" && item.battingStyle}
+                  {item.role === "Bowler" && item.bowlingStyle}
+                  {item.role === "Wicketkeeper" && (
+                    <span>Wicketkeeper • {item.battingStyle}</span>
+                  )}
+                  {item.role === "All-rounder" && item.role}
                 </p>
               </div>
             </div>
 
             {/* Delete Icon */}
-            <button className="text-red-500 hover:text-red-800">
+            <button onClick={() => handleRemove(item.playerName)} className="text-red-500 hover:text-red-800">
               <FaTrash />
             </button>
           </div>
